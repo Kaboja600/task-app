@@ -40,7 +40,7 @@ $result = $conn->query(
     <div class="dashboard-card">
 
         <div class="top-bar">
-            <h2>Hello, <?= htmlspecialchars($_SESSION["username"]) ?> 👋</h2>
+            <h2>Hello, <?= htmlspecialchars($_SESSION["username"]) ?> </h2>
             <a class="logout-btn" href="logout.php">Logout</a>
         </div>
 
